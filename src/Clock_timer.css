@@ -97,7 +97,7 @@ padding:0px;
 	border-radius: 5px;
     border:none;
     font-size:17px;
-	background-color:#03a9f4;
+	background-color:#2196f3;
 	width: 58px;
 	height:28px;
     text-align: center;
@@ -105,6 +105,118 @@ padding:0px;
     
   }
 
+
+  .Play {
+
+	cursor:pointer;
+	color:black;
+	border-radius: 5px;
+    border:none;
+    font-size:17px;
+	background-color:#2196f3;
+	width: 58px;
+	height:28px;
+    text-align: center;
+	padding:5px;
+    
+  }
+
+
+  .Stop {
+  
+	cursor:pointer;
+	color:black;
+	border-radius: 5px;
+    border:none;
+    font-size:17px;
+	background-color:#03a9f4;
+	width: 58px;
+	height:28px;
+    text-align: center;
+	padding:5px;
+	display:none;
+}
+
+.Play:disabled
+{
+
+  border:none;
+  cursor:auto;
+  background-color: #e0e0e0;
+  color:black;
+  border-radius: 5px;
+  border:none;
+  font-size:17px;
+  width: 58px;
+  height:28px;
+  text-align: center;
+  padding:5px;
+	
+}
+
+.Stop {
+  
+	cursor:pointer;
+	color:black;
+	border-radius: 5px;
+    border:none;
+    font-size:17px;
+	background-color:#03a9f4;
+	width: 58px;
+	height:28px;
+    text-align: center;
+	padding:5px;
+	display:none;
+}
+
+.Stop:disabled
+{
+  border:none;
+  cursor:auto;
+  background-color: #e0e0e0;
+  color:black;
+  border-radius: 5px;
+  border:none;
+  font-size:17px;
+  width: 58px;
+  height:28px;
+  text-align: center;
+  padding:5px;
+	
+}
+
+  .Reset {
+  
+	margin-left:3%;
+	cursor:pointer;
+	color:black;
+	border-radius: 5px;
+    border:none;
+    font-size:17px;
+	background-color:#03a9f4;
+	width: 58px;
+	height:28px;
+    text-align: center;
+	padding:5px;
+	
+}
+
+.Reset:disabled
+{
+
+  border:none;
+  cursor:auto;
+  background-color: #e0e0e0;
+  color:black;
+  border-radius: 5px;
+  border:none;
+  font-size:17px;
+  width: 58px;
+  height:28px;
+  text-align: center;
+  padding:5px;
+	
+}
 
 .Play:focus {
 
